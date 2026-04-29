@@ -15,7 +15,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Moderate issues
-        uses: scb261/issue-moderator-action@8993ad34f72a00a2746f8cbdbccba09cca89507d
+        uses: scb261/issue-moderator-action@f9b332be038e6c18b312cb742b7c4ac302cd6861
         with:
           repo-token: ${{ github.token }}
           member-token: ${{ secrets.MEMBER_TOKEN }}
